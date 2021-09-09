@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+  "name": "Example Mod",
+  "description": "dummy",
+  "authors": [
+    "Luligabi"
+  ],
+  "contact": {
+    "website": "dummy",
+    "repo": "dummy"
+  },
+  "license": "unlicense",
+  "icon": "assets/examplemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.luligabi.tutorial.ExampleModClient"
+    ],
+    "main": [
+      "me.luligabi.tutorial.ExampleMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x"
+  }
+}
